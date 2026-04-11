@@ -1,0 +1,11 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/xjs/mycodebase/c++/rpcs/myrpc/cmake_install.cmake",
+		"/home/xjs/mycodebase/c++/rpcs/myrpc/src/cmake_install.cmake",
+		"/home/xjs/mycodebase/c++/rpcs/myrpc/example/cmake_install.cmake",
+		"/home/xjs/mycodebase/c++/rpcs/myrpc/example/callee/cmake_install.cmake",
+		"/home/xjs/mycodebase/c++/rpcs/myrpc/example/caller/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

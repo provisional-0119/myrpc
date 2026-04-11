@@ -1,0 +1,13 @@
+/home/xjs/mycodebase/c++/rpcs/myrpc/CMakeFiles/edit_cache.dir
+/home/xjs/mycodebase/c++/rpcs/myrpc/CMakeFiles/rebuild_cache.dir
+/home/xjs/mycodebase/c++/rpcs/myrpc/src/CMakeFiles/mprpc.dir
+/home/xjs/mycodebase/c++/rpcs/myrpc/src/CMakeFiles/edit_cache.dir
+/home/xjs/mycodebase/c++/rpcs/myrpc/src/CMakeFiles/rebuild_cache.dir
+/home/xjs/mycodebase/c++/rpcs/myrpc/example/CMakeFiles/edit_cache.dir
+/home/xjs/mycodebase/c++/rpcs/myrpc/example/CMakeFiles/rebuild_cache.dir
+/home/xjs/mycodebase/c++/rpcs/myrpc/example/callee/CMakeFiles/provider.dir
+/home/xjs/mycodebase/c++/rpcs/myrpc/example/callee/CMakeFiles/edit_cache.dir
+/home/xjs/mycodebase/c++/rpcs/myrpc/example/callee/CMakeFiles/rebuild_cache.dir
+/home/xjs/mycodebase/c++/rpcs/myrpc/example/caller/CMakeFiles/consumer.dir
+/home/xjs/mycodebase/c++/rpcs/myrpc/example/caller/CMakeFiles/edit_cache.dir
+/home/xjs/mycodebase/c++/rpcs/myrpc/example/caller/CMakeFiles/rebuild_cache.dir

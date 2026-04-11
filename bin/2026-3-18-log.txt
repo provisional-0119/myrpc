@@ -1,0 +1,12 @@
+9:18:54 =>[info] test LOG_ERR
+9:18:54 =>[info] friendservice start
+9:18:54 =>[info] service_name:FiendServiceRpc
+9:18:54 =>[info] method_name:GetFriendsList
+9:19:25 =>[info] test LOG_ERR
+9:19:25 =>[info] friendservice start
+9:19:25 =>[info] service_name:FiendServiceRpc
+9:19:25 =>[info] method_name:GetFriendsList
+9:22:57 =>[info] test LOG_ERR
+9:22:57 =>[info] friendservice start
+9:22:57 =>[info] service_name:FiendServiceRpc
+9:22:57 =>[info] method_name:GetFriendsList
