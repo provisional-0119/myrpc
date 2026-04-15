@@ -1,0 +1,54 @@
+version: '3.8'
+
+services:
+  # ZooKeeper 服务
+  zookeeper:
+    image: zookeeper:3.7
+    container_name: myrpc-zookeeper
+    ports:
+      - "2181:2181"
+    networks:
+      - myrpc-net
+    restart: unless-stopped
+
+  # RPC 服务端 (Provider)
+  rpc-server:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: myrpc-server
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./bin/test_docker.conf:/app/bin/test.conf:ro
+    depends_on:
+      - zookeeper
+    networks:
+      - myrpc-net
+    environment:
+      - TZ=Asia/Shanghai
+    command: >
+      sh -c "sleep 8 && /app/bin/provider -i /app/bin/test.conf"
+    restart: unless-stopped
+
+  # RPC 客户端 (Consumer)
+  rpc-client:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: myrpc-client
+    volumes:
+      - ./bin/test_docker.conf:/app/bin/test.conf:ro
+    depends_on:
+      - rpc-server
+    networks:
+      - myrpc-net
+    environment:
+      - TZ=Asia/Shanghai
+    command: >
+      sh -c "sleep 3 && /app/bin/consumer -i /app/bin/test.conf"
+    restart: on-failure
+
+networks:
+  myrpc-net:
+    driver: bridge

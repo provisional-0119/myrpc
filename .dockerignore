@@ -1,0 +1,41 @@
+# Git
+.git
+.gitignore
+
+# 构建目录
+build/
+build-*/
+
+# 编译输出
+bin/
+lib/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 日志
+*.log
+*-log.txt
+
+# 临时文件
+*.tmp
+*.bak
+*.orig
+
+# CMake 缓存
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# 其他
+*.md
+!README.md
+autobuild.sh
+Dockerfile
+docker-compose.yml
+.dockerignore
